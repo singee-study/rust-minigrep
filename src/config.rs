@@ -3,9 +3,9 @@ use std::env::args;
 
 #[derive(Debug)]
 pub struct Config {
-    target: String,
-    file_path: String,
-    ignore_case: bool,
+    pub target: String,
+    pub file_path: String,
+    pub ignore_case: bool,
 }
 
 impl Config {
